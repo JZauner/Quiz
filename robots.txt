@@ -1,1 +1,1 @@
-Sitemap: https://tscnlab.github.io/QuartoWebsite/sitemap.xml
+Sitemap: https://JZauner.github.io/Quiz/sitemap.xml
