@@ -6,13 +6,34 @@ format:
     toc: true
     toc-location: left
     lightbox: true
-
+engine: shinylive
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Interactive Histogram
 
 ```{r}
-1 + 1
+sliderInput("bins", "Number of bins:", min = 5, max = 50, value = 20
+```
+
+```{r}
+renderPlot({
+  hist(faithful$waiting,
+       breaks = input$bins,
+       col = "skyblue",
+       border = "white",
+       main = "Histogram of Waiting Times",
+       xlab = "Minutes")
+})
+```
+
+## Personalized Greeting
+
+```{r}
+textInput("name", "What's your name?", "R user")
+```
+
+```{r}
+renderText({
+  paste("Hello,", input$name, "! Welcome to ShinyLive.")
+})
 ```
