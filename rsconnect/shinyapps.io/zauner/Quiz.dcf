@@ -1,0 +1,13 @@
+name: Quiz
+title: Quiz
+username: zauner
+account: zauner
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14689366
+bundleId: 10234251
+url: https://zauner.shinyapps.io/Quiz/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: _extensions/quarto-ext/shinylive/_extension.yml|_extensions/quarto-ext/shinylive/README.md|_extensions/quarto-ext/shinylive/resources/css/shinylive-quarto.css|_extensions/quarto-ext/shinylive/shinylive.lua|_quarto.yml|.github/workflows/publish.yml|.nojekyll|about.qmd|assets/new_repo1.png|contributing.qmd|index_files/execute-results/html.json|index.qmd|license.md|README.md|references.bib|styles.css|www/quiz_questions.xlsx|_site

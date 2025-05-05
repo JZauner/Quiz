@@ -34,8 +34,6 @@ format:
     css: styles.css
     toc: true
 
-engine: shinylive
-
 execute:
   freeze: auto
 
